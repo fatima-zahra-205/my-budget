@@ -241,8 +241,9 @@ class BudgetApp(App):
             size=(450, 450)  # Adjust this size if necessary to fit all content
         )
         popup.open()
-
-
-if __name__ == "__main__":
+        
+    if __name__ == "__main__":
     BudgetApp().run()
+
+
 
